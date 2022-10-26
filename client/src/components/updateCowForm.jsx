@@ -9,6 +9,8 @@ export default function UpdateCowForm({
 }) {
   const [error, setError] = useState({});
   const [requiredMissign, setRequiredMissign] = useState(false);
+  const [input, setInput] = useState();
+
   let initialInput = {
     _id: "",
     animal_type: "",
@@ -17,7 +19,6 @@ export default function UpdateCowForm({
     device_type: "",
     device_number: "",
   };
-  const [input, setInput] = useState(initialInput);
 
   useEffect(() => {
     setInput(actualCow);

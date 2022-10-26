@@ -9,6 +9,7 @@ export default function CreateCowForm({
 }) {
   const [error, setError] = useState({});
   const [requiredMissign, setRequiredMissign] = useState(false);
+
   let initialInput = {
     _id: "",
     animal_type: "",
