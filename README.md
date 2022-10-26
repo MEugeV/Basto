@@ -16,7 +16,7 @@ Formulario CRUD (Altas, Bajas, Modificaciones) de datos de vacas en formato desk
 
 Para correr el repositorio localmente se debe tener instalado previamente MongoDB y node.js, clonar una copia del repositorio y ejecutar en el mismo los siguientes comandos:
 
-Backend:
+Backend (localhost:5001):
 
 `cd api`
 
@@ -24,7 +24,7 @@ Backend:
 
 `npm start`
 
-Frontend:
+Frontend (localhost:3000):
 
 `cd client`
 
