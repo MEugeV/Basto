@@ -1,0 +1,78 @@
+.tableBox {
+  font-size: 0.7em;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nav{
+    height: 7vh;
+    background-color: #FaFaFa;
+}
+
+th {
+  padding: 0.8rem 0.1rem 0.8rem 0.1rem !important;
+  vertical-align: middle !important;
+  font-size: 1.2em;
+  border-top: 1px solid #393d3f !important;
+  border-bottom: 1px solid #393d3f !important;
+  font-weight: 700;
+}
+
+td {
+  padding: 0.3rem 0.1rem 0.3rem 0.1rem !important;
+  vertical-align: middle !important;
+  font-size: 1.2em;
+  border-top: 1px solid #393d3f !important;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.4em;
+}
+
+h2 {
+  font-size: 1.2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h3 {
+  font-size: 1.1em;
+  padding-top: 0.8em;
+  padding-bottom: 1.1em;
+}
+
+h4 {
+  font-size: 1em;
+  color: #688e26;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.body {
+  background-color: #dddddd;
+  height: 100vh;
+}
+
+.cattleBox {
+  width: 96%;
+  height: 90%;
+  margin: 0 auto;
+}
+
+.cattleBox input{
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+    vertical-align: middle;     
+    font-size: 1em;
+    color: #397d12;
+    font-weight: 500;
+    width: 88%;
+}
+
+.cattleBox input::selection, input:active, input:focus{
+  border-color: olive;     
+  border-radius:3px;     
+  outline: white;
+  border-width: 2px;
+}

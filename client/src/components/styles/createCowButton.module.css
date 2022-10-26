@@ -1,0 +1,15 @@
+
+button.newCow{
+    background-color: #688e26;
+    color: white;
+    border-radius: 4px;
+    vertical-align: center;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 0.3em 0.9em 0.3em 0.9em;
+    font-weight: 500;
+  }
+
+  button.newCow:hover{
+    background-color:  #4f772d;
+}

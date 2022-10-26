@@ -1,0 +1,36 @@
+.trash {
+    border: none;
+    background:none;
+    color:crimson;
+    font-size: 1.5em;
+    margin-left: 2px;}
+
+button.edit {
+    border: none;
+    background:none;
+    color:#688e26;
+    font-size: 1.4em;
+} 
+
+.trash:hover,.edit:hover {
+    border: none;
+    border-radius: 5px;
+    text-shadow: 0.2px 0.2px 0.2px;
+}
+
+button {
+    border: none;
+}
+    
+button:focus-within{
+    outline: none;
+}
+
+.table th {
+    padding:0.90rem !important;
+
+}
+
+.modal {
+    position: fixed
+}

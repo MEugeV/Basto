@@ -1,0 +1,15 @@
+
+.emptyTable {
+    position: fixed;
+    bottom: 10em;
+    font-size: 1.3em;
+    font-weight: 500;
+    left: 5%; 
+    right: 5%; 
+  
+  }
+
+  .actions {
+    width: 8em;
+  }
+    

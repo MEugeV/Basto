@@ -1,0 +1,124 @@
+.modal {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    margin-top: -100px; 
+    margin-left: -250px;     
+    height: 85vh;
+    width: 30em;
+    background-color: #edede9;
+    border-radius: 5px;
+    border: 1px solid  rgb(133, 133, 133);    
+    font-size: 0.8em;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 1em;
+}
+
+.formBox form input{
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+    vertical-align: middle;     
+    font-size: 1em;
+    color:  #393d3f;
+    font-weight: 500;
+    width: 88%;
+}
+
+
+form input, select{
+    width: 25em !important;
+    margin: 0 auto;
+}
+
+form select {
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+    vertical-align: middle;
+    font-size: 1em;
+    color: #393d3f;
+    font-weight: 500;
+}
+
+form select:focus-within{
+    outline: none;
+}
+
+
+.formBox {
+    padding: 1em ;
+    margin: 0 auto;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 90%;
+    vertical-align: middle;
+}
+
+.modalButon p {
+    margin-top: 0.1em;
+    font-size: 1.6em;
+    text-align: left;
+    font-weight: 700;
+}
+
+.buttonsBox{
+    text-align: center;
+}
+
+.modalButon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 2.5em;
+}
+
+.modalButon button {
+    background-color: #efffee;
+    width: 1.6em;
+    height: 1.6em;
+    font-size: 1.2em;
+    vertical-align: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.modalButon button:hover {
+    font-weight: 700;
+}
+
+.submit {
+    color: white !important;
+    background-color: #212529;
+    border-radius: 5px;
+    border: none;
+}
+
+.submit:disabled {
+    cursor:not-allowed;
+}
+
+.submit:hover {
+    font-weight: 400;
+}
+
+.error {
+    color:crimson;
+    font-size: 0.85em;
+    font-weight: 500;
+    padding: 0 4px 0 4px;
+    margin: 0;
+}
+.required {
+    color:black;
+    font-size: 0.85em;
+    font-weight: 600;
+    padding: 0 4px 0 4px;
+    margin: 0;
+}
+
+
+label{
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+
+}
