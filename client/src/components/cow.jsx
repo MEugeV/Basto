@@ -16,7 +16,9 @@ export default function Cow({
       <td>{animal.device_number.toUpperCase()}</td>
       <td>
         <button
-          onClick={() => setUpdateCowModalOpen({ true: true, cow: animal })}
+          onClick={() => {
+            setUpdateCowModalOpen({ true: true, cow: animal });
+          }}
           className={styles.edit}
         >
           <i className="bi bi-pencil-square"></i>

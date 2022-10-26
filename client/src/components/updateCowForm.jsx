@@ -3,14 +3,12 @@ import styles from "./styles/form.module.css";
 import validate from "../services/validateForm";
 
 export default function UpdateCowForm({
-  handleSubmitUpdateCow,
   actualCow,
+  handleSubmitUpdateCow,
   setUpdateCowModalOpen,
 }) {
   const [error, setError] = useState({});
   const [requiredMissign, setRequiredMissign] = useState(false);
-  const [input, setInput] = useState();
-
   let initialInput = {
     _id: "",
     animal_type: "",
@@ -19,6 +17,8 @@ export default function UpdateCowForm({
     device_type: "",
     device_number: "",
   };
+
+  const [input, setInput] = useState(initialInput);
 
   useEffect(() => {
     setInput(actualCow);
