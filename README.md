@@ -8,7 +8,7 @@ Formulario CRUD (Altas, Bajas, Modificaciones) de datos de vacas en formato desk
 - Modificación de datos de registros de animales.
 - Eliminación de registros de animales, previa solicitud de confirmación.
 - Paginado.
-- Barra de filtro por ID Senasa o Tipo de Animal, que se mantiene mientras no se borre el criterio de búsqueda, por mas que se haga un nuevo llamado a la BD luego de un POST/DELETE/PUT.
+- Barra de filtro por ID Senasa o Tipo de Animal, que se mantiene mientras no se borre el criterio de búsqueda, aún luego del nuevo llamado a la BD al agregar, eliminar o modificar un registro.
 
 # Intrucciones:
 
